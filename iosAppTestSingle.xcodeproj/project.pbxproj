@@ -14,6 +14,8 @@
 		2150F9B222D590C50003FBC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2150F9B022D590C50003FBC0 /* LaunchScreen.storyboard */; };
 		2150F9BD22D590C50003FBC0 /* iosAppTestSingleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2150F9BC22D590C50003FBC0 /* iosAppTestSingleTests.swift */; };
 		2150F9C822D590C50003FBC0 /* iosAppTestSingleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2150F9C722D590C50003FBC0 /* iosAppTestSingleUITests.swift */; };
+		2166841022ED2CCE006F51DF /* qantas-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2166840F22ED2CCE006F51DF /* qantas-icon.png */; };
+		2166841222ED8E43006F51DF /* HongweiClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166841122ED8E43006F51DF /* HongweiClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2150F9C322D590C50003FBC0 /* iosAppTestSingleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosAppTestSingleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2150F9C722D590C50003FBC0 /* iosAppTestSingleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosAppTestSingleUITests.swift; sourceTree = "<group>"; };
 		2150F9C922D590C50003FBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2166840F22ED2CCE006F51DF /* qantas-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "qantas-icon.png"; path = "../../../../../Pictures/qantas-icon.png"; sourceTree = "<group>"; };
+		2166841122ED8E43006F51DF /* HongweiClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HongweiClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		2150F9A622D590C30003FBC0 /* iosAppTestSingle */ = {
 			isa = PBXGroup;
 			children = (
+				2166840E22ED2CA5006F51DF /* Supporting Files */,
 				2150F9A722D590C30003FBC0 /* AppDelegate.swift */,
 				2150F9A922D590C30003FBC0 /* ViewController.swift */,
 				2150F9AB22D590C30003FBC0 /* Main.storyboard */,
 				2150F9AE22D590C50003FBC0 /* Assets.xcassets */,
 				2150F9B022D590C50003FBC0 /* LaunchScreen.storyboard */,
 				2150F9B322D590C50003FBC0 /* Info.plist */,
+				2166841122ED8E43006F51DF /* HongweiClass.swift */,
 			);
 			path = iosAppTestSingle;
 			sourceTree = "<group>";
@@ -123,6 +129,14 @@
 				2150F9C922D590C50003FBC0 /* Info.plist */,
 			);
 			path = iosAppTestSingleUITests;
+			sourceTree = "<group>";
+		};
+		2166840E22ED2CA5006F51DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2166840F22ED2CCE006F51DF /* qantas-icon.png */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2166841022ED2CCE006F51DF /* qantas-icon.png in Resources */,
 				2150F9B222D590C50003FBC0 /* LaunchScreen.storyboard in Resources */,
 				2150F9AF22D590C50003FBC0 /* Assets.xcassets in Resources */,
 				2150F9AD22D590C30003FBC0 /* Main.storyboard in Resources */,
@@ -256,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2166841222ED8E43006F51DF /* HongweiClass.swift in Sources */,
 				2150F9AA22D590C30003FBC0 /* ViewController.swift in Sources */,
 				2150F9A822D590C30003FBC0 /* AppDelegate.swift in Sources */,
 			);
