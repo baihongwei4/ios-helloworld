@@ -1,0 +1,177 @@
+<MappingList>
+	<Mapping type="date" format="%d-%m-%Y" name="poDate"/>
+
+<Mapping type="object" class="NSRTMResponse" rootName="rsp">
+	<Mapping type="string" xmlPath="@stat" objectPath="stat"/>
+    <Mapping type="string" xmlPath="api_key" objectPath="api_key"/>
+	<Mapping type="string" xmlPath="api_sign" objectPath="api_sign"/>
+	<Mapping type="string" xmlPath="frob" objectPath="frob"/>
+	<Mapping ref="error" xmlPath="err" objectPath="error"/>
+	<Mapping ref="auth" xmlPath="auth" objectPath="auth"/>
+	<Mapping ref="user" xmlPath="user" objectPath="user"/>
+	<Mapping ref="note" xmlPath="note" objectPath="note"/>
+	<Mapping ref="settings" xmlPath="settings" objectPath="settings"/>
+	<Mapping ref="transaction" xmlPath="transaction" objectPath="transaction"/>
+	<Mapping ref="timeline" xmlPath="timeline" objectPath="timeline"/>
+	<Mapping ref="list" xmlPath="list" objectPath="list"/>
+	<Mapping ref="lists" isList="YES" xmlPath="lists/list" objectPath="lists" />
+	<Mapping ref="listsTasks" isList="YES" xmlPath="tasks/list" objectPath="listsTasks" />
+	<Mapping ref="contact" xmlPath="contact" objectPath="contact"/>
+	<Mapping ref="contacts" isList="YES" xmlPath="contacts/contact" objectPath="contacts" />
+	<Mapping ref="notes" isList="YES" xmlPath="notes/note" objectPath="notes" />
+	<Mapping ref="locations" isList="YES" xmlPath="locations/location" objectPath="locations" />
+</Mapping>
+
+<Mapping type="object" class="NSRTMList" isList="YES" xmlPath="lists/list" name="lists">
+	<Mapping type="string" xmlPath="@id" objectPath="listid"/>
+	<Mapping type="string" xmlPath="@name" objectPath="name"/>
+	<Mapping type="string" xmlPath="@deleted" objectPath="deleted"/>
+	<Mapping type="string" xmlPath="@locked" objectPath="locked"/>
+	<Mapping type="string" xmlPath="@archived" objectPath="archived"/>
+	<Mapping type="string" xmlPath="@position" objectPath="position"/>
+	<Mapping type="string" xmlPath="@smart" objectPath="smart"/>
+	<Mapping type="string" xmlPath="@sort_order" objectPath="sort_order"/>
+</Mapping> 
+
+<Mapping type="object" class="NSRTMList" isList="YES" xmlPath="tasks/list" name="listsTasks">
+	<Mapping type="string" xmlPath="@id" objectPath="listid"/>
+	<Mapping ref="taskseries" isList="YES" xmlPath="taskseries" objectPath="taskseries" />
+</Mapping> 
+
+<Mapping type="object" class="NSRTMList" name="list">
+	<Mapping type="string" xmlPath="@id" objectPath="listid"/>
+	<Mapping type="string" xmlPath="@name" objectPath="name"/>
+	<Mapping type="string" xmlPath="@deleted" objectPath="deleted"/>
+	<Mapping type="string" xmlPath="@locked" objectPath="locked"/>
+	<Mapping type="string" xmlPath="@archived" objectPath="archived"/>
+	<Mapping type="string" xmlPath="@position" objectPath="position"/>
+	<Mapping type="string" xmlPath="@smart" objectPath="smart"/>
+</Mapping> 
+
+
+<Mapping type="object" class="NSRTMTaskseries" isList="YES" xmlPath="taskseries" name="taskseries">
+	<Mapping type="string" xmlPath="@id" objectPath="task_id"/>
+	<Mapping type="string" xmlPath="@name" objectPath="name"/>
+	<Mapping type="string" xmlPath="@created" objectPath="created"/>
+	<Mapping type="string" xmlPath="@modified" objectPath="modified"/>
+	<Mapping type="string" xmlPath="@source" objectPath="source"/>
+	<Mapping type="string" xmlPath="@url" objectPath="url"/>
+	<Mapping type="string" xmlPath="@location_id" objectPath="location_id"/>
+	<Mapping ref="tags" isList="YES" xmlPath="tags/tag" objectPath="tags" />
+	<Mapping ref="notes" isList="YES" xmlPath="notes/note" objectPath="notes" />
+	<Mapping ref="tasks" isList="YES" xmlPath="task" objectPath="tasks" />
+</Mapping>
+
+<Mapping type="object" class="NSRTMTask"  xmlPath="tasks" name="tasks">
+	<Mapping type="string" xmlPath="@id" objectPath="task_id"/>
+	<Mapping type="string" xmlPath="@due" objectPath="due"/>
+	<Mapping type="string" xmlPath="@has_due_time" objectPath="has_due_time"/>
+	<Mapping type="string" xmlPath="@added" objectPath="added"/>
+	<Mapping type="string" xmlPath="@completed" objectPath="completed"/>
+	<Mapping type="string" xmlPath="@deleted" objectPath="deleted"/>
+	<Mapping type="string" xmlPath="@priority" objectPath="priority"/>
+	<Mapping type="string" xmlPath="@postponed" objectPath="postponed"/>
+	<Mapping type="string" xmlPath="@estimate" objectPath="estimate"/>
+</Mapping> 
+
+<Mapping type="object" class="NSRTMContact" isList="YES" xmlPath="contacts/contact" name="contacts">
+	<Mapping type="string" xmlPath="@fullname" objectPath="fullname"/>
+	<Mapping type="string" xmlPath="@id" objectPath="contact_id"/>
+	<Mapping type="string" xmlPath="@username" objectPath="username"/>
+</Mapping>
+
+<Mapping type="object" class="NSRTMContact" name="contact">
+	<Mapping type="string" xmlPath="@fullname" objectPath="fullname"/>
+	<Mapping type="string" xmlPath="@id" objectPath="contact_id"/>
+	<Mapping type="string" xmlPath="@username" objectPath="username"/>
+</Mapping> 
+
+<Mapping type="object" class="NSRTMNote" xmlPath="note" name="note">
+	<Mapping type="string" xmlPath="." objectPath="value"/>
+	<Mapping type="string" xmlPath="@id" objectPath="note_id"/>
+	<Mapping type="string" xmlPath="@created" objectPath="created"/>
+	<Mapping type="string" xmlPath="@modified" objectPath="modified"/>
+	<Mapping type="string" xmlPath="@title" objectPath="title"/>
+</Mapping> 
+
+<Mapping type="object" class="NSRTMNote" isList="YES" xmlPath="notes/note" name="notes">
+	<Mapping type="string" xmlPath="." objectPath="value"/>
+	<Mapping type="string" xmlPath="@id" objectPath="note_id"/>
+	<Mapping type="string" xmlPath="@created" objectPath="created"/>
+	<Mapping type="string" xmlPath="@modified" objectPath="modified"/>
+	<Mapping type="string" xmlPath="@title" objectPath="title"/>
+</Mapping> 
+
+<Mapping type="object" class="NSRTMTag" isList="YES" xmlPath="tags/tag" name="tags">
+	<Mapping type="string" xmlPath="." objectPath="value"/>
+</Mapping> 
+
+<Mapping type="object" class="NSRTMError" name="error">
+	<Mapping type="string" xmlPath="@code" objectPath="code"/>
+	<Mapping type="string" xmlPath="@msg" objectPath="message"/>
+</Mapping>
+
+<Mapping type="object" class="NSRTMAuth" name="auth">
+	<Mapping type="string" xmlPath="token" objectPath="token"/>
+	<Mapping type="string" xmlPath="perms" objectPath="perms"/>
+	<Mapping ref="user" xmlPath="user" objectPath="user"/>
+</Mapping>
+
+<Mapping type="object" class="NSRTMUser" name="user">
+	<Mapping type="string" xmlPath="@id" objectPath="userid"/>
+	<Mapping type="string" xmlPath="@username" objectPath="username"/>
+	<Mapping type="string" xmlPath="@fullname" objectPath="fullname"/>
+</Mapping>
+
+<Mapping type="object" class="NSRTMTransaction" name="transaction">
+	<Mapping type="string" xmlPath="@id" objectPath="transactionid"/>
+	<Mapping type="string" xmlPath="@undoable" objectPath="undoable"/>
+</Mapping>
+
+<Mapping type="object" class="NSRTMTimeline" name="timeline">
+	<Mapping type="string" xmlPath="." objectPath="value"/>
+</Mapping>
+
+<Mapping type="object" class="RTMMethod" rootName="method">
+	<Mapping type="string" xmlPath="@name" objectPath="name"/>
+	<Mapping type="string" xmlPath="@needslogin" objectPath="needslogin"/>
+	<Mapping type="string" xmlPath="@needssigning" objectPath="needssigning"/>
+	<Mapping type="string" xmlPath="@requiredperms" objectPath="requiredperms"/>
+	<Mapping type="string" xmlPath="description" objectPath="description"/>
+	<Mapping type="string" xmlPath="response" objectPath="response"/>
+</Mapping>
+
+<Mapping type="object" class="NSRTMSettings" name="settings">
+	<Mapping ref="timezone" xmlPath="timezone" objectPath="rtmtimezone"/>
+	<Mapping ref="dateformat" xmlPath="dateformat" objectPath="dateformat"/>
+	<Mapping ref="timeformat" xmlPath="timeformat" objectPath="timeformat"/>
+	<Mapping ref="defaultlist" xmlPath="defaultlist" objectPath="defaultlist"/>
+</Mapping>
+
+<Mapping type="object" class="NSRTMTimezone" name="timezone">
+	<Mapping type="string" xmlPath="." objectPath="value"/>
+</Mapping>
+
+<Mapping type="object" class="NSRTMDataformat" name="dateformat">
+	<Mapping type="string" xmlPath="." objectPath="value"/>
+</Mapping>
+
+<Mapping type="object" class="NSRTMTimeformat" name="timeformat">
+	<Mapping type="string" xmlPath="." objectPath="value"/>
+</Mapping>
+
+<Mapping type="object" class="NSRTMDefaultlist" name="defaultlist">
+	<Mapping type="string" xmlPath="." objectPath="value"/>
+</Mapping>
+
+<Mapping type="object" class="NSRTMLocation" isList="YES" xmlPath="locations/location" name="locations">
+	<Mapping type="string" xmlPath="@id" objectPath="locationid"/>
+	<Mapping type="string" xmlPath="@name" objectPath="name"/>
+	<Mapping type="string" xmlPath="@longitude" objectPath="longitude"/>
+	<Mapping type="string" xmlPath="@latitude" objectPath="latitude"/>
+	<Mapping type="string" xmlPath="@zoom" objectPath="zoom"/>
+	<Mapping type="string" xmlPath="@address" objectPath="address"/>
+	<Mapping type="string" xmlPath="@viewable" objectPath="viewable"/>
+</Mapping>
+
+</MappingList>

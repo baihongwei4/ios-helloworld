@@ -18,15 +18,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Welcome Screen" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j6Q-Cb-9H5">
-                                <rect key="frame" x="136" y="215" width="143" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j6Q-Cb-9H5">
+                                <rect key="frame" x="99" y="157" width="217" height="30"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Welcome">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.15613339939716719" blue="0.063183575651678869" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="j6Q-Cb-9H5" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="QO6-4w-rr5"/>
+                            <constraint firstItem="j6Q-Cb-9H5" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="V6q-Qc-Tg4"/>
+                            <constraint firstItem="j6Q-Cb-9H5" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Vpb-en-Fnk"/>
+                            <constraint firstItem="j6Q-Cb-9H5" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="31:128" id="YIN-Fc-VUh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>

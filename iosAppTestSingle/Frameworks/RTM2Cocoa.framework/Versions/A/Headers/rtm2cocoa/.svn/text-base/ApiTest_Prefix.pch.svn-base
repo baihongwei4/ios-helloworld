@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'ApiTest' target in the 'ApiTest' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import "DebugLog.h"
+#endif

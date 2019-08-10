@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,18 +15,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iosAppTestSingle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jjZ-3y-xwF">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="welcome_img" translatesAutoresizingMaskIntoConstraints="NO" id="nXo-N2-l2t">
-                                        <rect key="frame" x="30" y="124" width="78" height="65"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B7A-FK-qC9">
-                                        <rect key="frame" x="115" y="124" width="235" height="48"/>
+                                        <rect key="frame" x="247.5" y="309" width="49" height="48"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <attributedString key="attributedText">
                                             <fragment content="Label">
@@ -39,8 +35,19 @@
                                         </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="BdW-V4-cMo">
+                                        <rect key="frame" x="34" y="304" width="252" height="2"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </progressView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GVA-9S-Ubl">
+                                        <rect key="frame" x="72" y="239" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7U-qD-jnI">
-                                        <rect key="frame" x="46" y="197" width="59" height="51"/>
+                                        <rect key="frame" x="140" y="217" width="59" height="58"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" backgroundImage="qantas-icon.png">
@@ -51,34 +58,27 @@
                                             <action selector="myFunctionNameWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qhL-23-fnE"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GVA-9S-Ubl">
-                                        <rect key="frame" x="54" y="274" width="42" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JSD-Ad-zWn">
-                                        <rect key="frame" x="208" y="232" width="49" height="31"/>
+                                        <rect key="frame" x="49" y="318" width="49" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <action selector="myswitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="OYJ-kF-wJe"/>
                                         </connections>
                                     </switch>
-                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="BdW-V4-cMo">
-                                        <rect key="frame" x="54" y="371" width="310" height="2"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="welcome_img" translatesAutoresizingMaskIntoConstraints="NO" id="nXo-N2-l2t">
+                                        <rect key="frame" x="-17.5" y="38" width="355" height="143"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </progressView>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.80494209481299195" blue="0.93163404619835433" alpha="0.3065030809859155" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="jjZ-3y-xwF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="idH-Tu-I9n"/>
-                            <constraint firstItem="jjZ-3y-xwF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="nEX-mS-4w6"/>
-                            <constraint firstAttribute="bottom" secondItem="jjZ-3y-xwF" secondAttribute="bottom" id="tsX-d0-vcl"/>
-                            <constraint firstItem="jjZ-3y-xwF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="wBo-5L-5Pg"/>
+                            <constraint firstItem="jjZ-3y-xwF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ANe-ul-5uO"/>
+                            <constraint firstItem="jjZ-3y-xwF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="dj3-zQ-nk0"/>
+                            <constraint firstItem="jjZ-3y-xwF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="s75-Bl-YpU"/>
+                            <constraint firstItem="jjZ-3y-xwF" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="w0T-6L-0p5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -91,7 +91,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="46.376811594202906" y="64.955357142857139"/>
+            <point key="canvasLocation" x="43.125" y="63.75"/>
         </scene>
     </scenes>
     <resources>

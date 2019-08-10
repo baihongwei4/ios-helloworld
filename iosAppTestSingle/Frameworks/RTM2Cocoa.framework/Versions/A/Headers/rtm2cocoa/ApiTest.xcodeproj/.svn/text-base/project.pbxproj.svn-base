@@ -1,0 +1,1080 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* ApiTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* ApiTestAppDelegate.m */; };
+		2613ECCE10BB1A0D00C2C760 /* RTM2Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2613EB5910BB156800C2C760 /* RTM2Cocoa.framework */; };
+		2613ED1610BB1A1A00C2C760 /* RTM2Cocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2613EB5910BB156800C2C760 /* RTM2Cocoa.framework */; };
+		2613ED7B10BB274B00C2C760 /* NSRTM2Cocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 2613ED7110BB268C00C2C760 /* NSRTM2Cocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659194710A783FF0025A0B1 /* RTMDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918C810A783FE0025A0B1 /* RTMDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659194810A783FF0025A0B1 /* NSRTMRecurrence.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918C910A783FE0025A0B1 /* NSRTMRecurrence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659194910A783FF0025A0B1 /* NSRTMRecurrence.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918CA10A783FE0025A0B1 /* NSRTMRecurrence.m */; };
+		2659194A10A783FF0025A0B1 /* NSRTMRecurrenceEvery.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918CB10A783FE0025A0B1 /* NSRTMRecurrenceEvery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659194B10A783FF0025A0B1 /* NSRTMRecurrenceEvery.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918CC10A783FE0025A0B1 /* NSRTMRecurrenceEvery.m */; };
+		2659194C10A783FF0025A0B1 /* NSRTMRecurrenceAfter.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918CD10A783FE0025A0B1 /* NSRTMRecurrenceAfter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659194D10A783FF0025A0B1 /* NSRTMRecurrenceAfter.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918CE10A783FE0025A0B1 /* NSRTMRecurrenceAfter.m */; };
+		2659194E10A783FF0025A0B1 /* NSRTMLocator.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918CF10A783FE0025A0B1 /* NSRTMLocator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659194F10A783FF0025A0B1 /* NSRTMLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918D010A783FE0025A0B1 /* NSRTMLocator.m */; };
+		2659195010A783FF0025A0B1 /* NSRTMPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918D210A783FE0025A0B1 /* NSRTMPredicate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659195110A783FF0025A0B1 /* NSRTMPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918D310A783FE0025A0B1 /* NSRTMPredicate.m */; };
+		2659195210A783FF0025A0B1 /* NSRTMCriteria.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918D410A783FE0025A0B1 /* NSRTMCriteria.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659195310A783FF0025A0B1 /* NSRTMCriteria.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918D510A783FE0025A0B1 /* NSRTMCriteria.m */; };
+		2659195410A783FF0025A0B1 /* NSRTMTimeCriteria.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918D610A783FE0025A0B1 /* NSRTMTimeCriteria.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659195510A783FF0025A0B1 /* NSRTMTimeCriteria.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918D710A783FE0025A0B1 /* NSRTMTimeCriteria.m */; };
+		2659195610A783FF0025A0B1 /* NSRTMShareCriteria.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918D810A783FE0025A0B1 /* NSRTMShareCriteria.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659195710A783FF0025A0B1 /* NSRTMShareCriteria.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918D910A783FE0025A0B1 /* NSRTMShareCriteria.m */; };
+		2659195810A783FF0025A0B1 /* NSRTMLocationCriteria.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918DA10A783FE0025A0B1 /* NSRTMLocationCriteria.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659195910A783FF0025A0B1 /* NSRTMLocationCriteria.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918DB10A783FE0025A0B1 /* NSRTMLocationCriteria.m */; };
+		2659195A10A783FF0025A0B1 /* NSRTMParamsCriteria.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918DC10A783FE0025A0B1 /* NSRTMParamsCriteria.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659195B10A783FF0025A0B1 /* NSRTMParamsCriteria.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918DD10A783FE0025A0B1 /* NSRTMParamsCriteria.m */; };
+		2659195C10A783FF0025A0B1 /* NSRTMTagCriteria.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918DE10A783FE0025A0B1 /* NSRTMTagCriteria.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659195D10A783FF0025A0B1 /* NSRTMTagCriteria.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918DF10A783FE0025A0B1 /* NSRTMTagCriteria.m */; };
+		2659195E10A783FF0025A0B1 /* NSRTMResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918E110A783FE0025A0B1 /* NSRTMResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659195F10A783FF0025A0B1 /* NSRTMResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918E210A783FE0025A0B1 /* NSRTMResponse.m */; };
+		2659196010A783FF0025A0B1 /* NSDataMd5.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918E410A783FE0025A0B1 /* NSDataMd5.h */; settings = {ATTRIBUTES = (); }; };
+		2659196110A783FF0025A0B1 /* NSDataMd5.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918E510A783FE0025A0B1 /* NSDataMd5.m */; };
+		2659196210A783FF0025A0B1 /* DigestMd5.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918E610A783FE0025A0B1 /* DigestMd5.h */; settings = {ATTRIBUTES = (); }; };
+		2659196310A783FF0025A0B1 /* DigestMd5.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918E710A783FE0025A0B1 /* DigestMd5.m */; };
+		2659196410A783FF0025A0B1 /* JMRBooleanMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918E910A783FE0025A0B1 /* JMRBooleanMapping.h */; settings = {ATTRIBUTES = (); }; };
+		2659196510A783FF0025A0B1 /* JMRBooleanMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918EA10A783FE0025A0B1 /* JMRBooleanMapping.m */; };
+		2659196610A783FF0025A0B1 /* JMRBooleanMappingType.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918EB10A783FE0025A0B1 /* JMRBooleanMappingType.h */; settings = {ATTRIBUTES = (); }; };
+		2659196710A783FF0025A0B1 /* JMRBooleanMappingType.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918EC10A783FE0025A0B1 /* JMRBooleanMappingType.m */; };
+		2659196810A783FF0025A0B1 /* JMRConstantMappingType.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918ED10A783FE0025A0B1 /* JMRConstantMappingType.h */; settings = {ATTRIBUTES = (); }; };
+		2659196910A783FF0025A0B1 /* JMRConstantMappingType.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918EE10A783FE0025A0B1 /* JMRConstantMappingType.m */; };
+		2659196A10A783FF0025A0B1 /* JMRDateMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918EF10A783FE0025A0B1 /* JMRDateMapping.h */; settings = {ATTRIBUTES = (); }; };
+		2659196B10A783FF0025A0B1 /* JMRDateMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918F010A783FE0025A0B1 /* JMRDateMapping.m */; };
+		2659196C10A783FF0025A0B1 /* JMRDateMappingType.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918F110A783FE0025A0B1 /* JMRDateMappingType.h */; settings = {ATTRIBUTES = (); }; };
+		2659196D10A783FF0025A0B1 /* JMRDateMappingType.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918F210A783FE0025A0B1 /* JMRDateMappingType.m */; };
+		2659196E10A783FF0025A0B1 /* JMRMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918F310A783FE0025A0B1 /* JMRMapping.h */; settings = {ATTRIBUTES = (); }; };
+		2659196F10A783FF0025A0B1 /* JMRMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918F410A783FE0025A0B1 /* JMRMapping.m */; };
+		2659197010A783FF0025A0B1 /* JMRMappingFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918F510A783FE0025A0B1 /* JMRMappingFactory.h */; settings = {ATTRIBUTES = (); }; };
+		2659197110A783FF0025A0B1 /* JMRMappingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918F610A783FE0025A0B1 /* JMRMappingFactory.m */; };
+		2659197210A783FF0025A0B1 /* JMRMappingList.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918F710A783FE0025A0B1 /* JMRMappingList.h */; settings = {ATTRIBUTES = (); }; };
+		2659197310A783FF0025A0B1 /* JMRMappingList.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918F810A783FE0025A0B1 /* JMRMappingList.m */; };
+		2659197410A783FF0025A0B1 /* JMRMappingType.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918F910A783FE0025A0B1 /* JMRMappingType.h */; settings = {ATTRIBUTES = (); }; };
+		2659197510A783FF0025A0B1 /* JMRMappingType.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918FA10A783FE0025A0B1 /* JMRMappingType.m */; };
+		2659197610A783FF0025A0B1 /* JMRMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918FB10A783FE0025A0B1 /* JMRMarshaller.h */; settings = {ATTRIBUTES = (); }; };
+		2659197710A783FF0025A0B1 /* JMRMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918FC10A783FE0025A0B1 /* JMRMarshaller.m */; };
+		2659197810A783FF0025A0B1 /* JMRNumberMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918FD10A783FE0025A0B1 /* JMRNumberMapping.h */; settings = {ATTRIBUTES = (); }; };
+		2659197910A783FF0025A0B1 /* JMRNumberMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 265918FE10A783FE0025A0B1 /* JMRNumberMapping.m */; };
+		2659197A10A783FF0025A0B1 /* JMRNumberMappingType.h in Headers */ = {isa = PBXBuildFile; fileRef = 265918FF10A783FE0025A0B1 /* JMRNumberMappingType.h */; settings = {ATTRIBUTES = (); }; };
+		2659197B10A783FF0025A0B1 /* JMRNumberMappingType.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659190010A783FE0025A0B1 /* JMRNumberMappingType.m */; };
+		2659197C10A783FF0025A0B1 /* JMRObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659190110A783FE0025A0B1 /* JMRObjectMapping.h */; settings = {ATTRIBUTES = (); }; };
+		2659197D10A783FF0025A0B1 /* JMRObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659190210A783FE0025A0B1 /* JMRObjectMapping.m */; };
+		2659197E10A783FF0025A0B1 /* JMROutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659190310A783FE0025A0B1 /* JMROutputStream.h */; settings = {ATTRIBUTES = (); }; };
+		2659197F10A783FF0025A0B1 /* JMROutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659190410A783FE0025A0B1 /* JMROutputStream.m */; };
+		2659198010A783FF0025A0B1 /* JMRScalarMappingType.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659190510A783FE0025A0B1 /* JMRScalarMappingType.h */; settings = {ATTRIBUTES = (); }; };
+		2659198110A783FF0025A0B1 /* JMRScalarMappingType.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659190610A783FE0025A0B1 /* JMRScalarMappingType.m */; };
+		2659198210A783FF0025A0B1 /* JMRStringMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659190710A783FE0025A0B1 /* JMRStringMapping.h */; settings = {ATTRIBUTES = (); }; };
+		2659198310A783FF0025A0B1 /* JMRStringMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659190810A783FE0025A0B1 /* JMRStringMapping.m */; };
+		2659198410A783FF0025A0B1 /* JMRStringMappingType.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659190910A783FE0025A0B1 /* JMRStringMappingType.h */; settings = {ATTRIBUTES = (); }; };
+		2659198510A783FF0025A0B1 /* JMRStringMappingType.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659190A10A783FE0025A0B1 /* JMRStringMappingType.m */; };
+		2659198610A783FF0025A0B1 /* JMRSwitchMappingType.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659190B10A783FE0025A0B1 /* JMRSwitchMappingType.h */; settings = {ATTRIBUTES = (); }; };
+		2659198710A783FF0025A0B1 /* JMRSwitchMappingType.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659190C10A783FE0025A0B1 /* JMRSwitchMappingType.m */; };
+		2659198810A783FF0025A0B1 /* JMRTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659190D10A783FE0025A0B1 /* JMRTree.h */; settings = {ATTRIBUTES = (); }; };
+		2659198910A783FF0025A0B1 /* JMRTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659190E10A783FE0025A0B1 /* JMRTree.m */; };
+		2659198A10A783FF0025A0B1 /* JMRXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659190F10A783FE0025A0B1 /* JMRXMLNode.h */; settings = {ATTRIBUTES = (); }; };
+		2659198B10A783FF0025A0B1 /* JMRXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659191010A783FE0025A0B1 /* JMRXMLNode.m */; };
+		2659198C10A783FF0025A0B1 /* JMRXMLTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659191110A783FE0025A0B1 /* JMRXMLTree.h */; settings = {ATTRIBUTES = (); }; };
+		2659198D10A783FF0025A0B1 /* JMRXMLTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659191210A783FE0025A0B1 /* JMRXMLTree.m */; };
+		2659198E10A783FF0025A0B1 /* XMLKeyValueElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659191310A783FE0025A0B1 /* XMLKeyValueElement.h */; settings = {ATTRIBUTES = (); }; };
+		2659198F10A783FF0025A0B1 /* XMLKeyValueElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659191410A783FE0025A0B1 /* XMLKeyValueElement.m */; };
+		2659199010A783FF0025A0B1 /* NSRTMAuthException.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659191610A783FE0025A0B1 /* NSRTMAuthException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659199110A783FF0025A0B1 /* NSRTMAuthException.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659191710A783FE0025A0B1 /* NSRTMAuthException.m */; };
+		2659199210A783FF0025A0B1 /* NSRTMService.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659191910A783FE0025A0B1 /* NSRTMService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659199310A783FF0025A0B1 /* NSRTMService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659191A10A783FE0025A0B1 /* NSRTMService.m */; };
+		2659199410A783FF0025A0B1 /* NSRTMXMLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659191B10A783FE0025A0B1 /* NSRTMXMLProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659199510A783FF0025A0B1 /* NSRTMNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659191C10A783FE0025A0B1 /* NSRTMNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659199610A783FF0025A0B1 /* NSRTMNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659191D10A783FE0025A0B1 /* NSRTMNotification.m */; };
+		2659199710A783FF0025A0B1 /* NSRTMError.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659191F10A783FE0025A0B1 /* NSRTMError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659199810A783FF0025A0B1 /* NSRTMError.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659192010A783FE0025A0B1 /* NSRTMError.m */; };
+		2659199910A783FF0025A0B1 /* NSRTMTaskseries.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659192110A783FE0025A0B1 /* NSRTMTaskseries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659199A10A783FF0025A0B1 /* NSRTMTaskseries.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659192210A783FE0025A0B1 /* NSRTMTaskseries.m */; };
+		2659199B10A783FF0025A0B1 /* NSRTMList.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659192310A783FE0025A0B1 /* NSRTMList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659199C10A783FF0025A0B1 /* NSRTMList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659192410A783FE0025A0B1 /* NSRTMList.m */; };
+		2659199D10A783FF0025A0B1 /* NSRTMUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659192510A783FE0025A0B1 /* NSRTMUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2659199E10A783FF0025A0B1 /* NSRTMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659192610A783FE0025A0B1 /* NSRTMUser.m */; };
+		2659199F10A783FF0025A0B1 /* NSRTMAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659192710A783FE0025A0B1 /* NSRTMAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265919A010A783FF0025A0B1 /* NSRTMAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659192810A783FE0025A0B1 /* NSRTMAuth.m */; };
+		265919A110A783FF0025A0B1 /* NSRTMNote.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659192910A783FE0025A0B1 /* NSRTMNote.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265919A210A783FF0025A0B1 /* NSRTMNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659192A10A783FE0025A0B1 /* NSRTMNote.m */; };
+		265919A310A783FF0025A0B1 /* NSRTMTimeline.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659192B10A783FE0025A0B1 /* NSRTMTimeline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265919A410A783FF0025A0B1 /* NSRTMTimeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659192C10A783FE0025A0B1 /* NSRTMTimeline.m */; };
+		265919A510A783FF0025A0B1 /* NSRTMTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659192D10A783FE0025A0B1 /* NSRTMTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265919A610A783FF0025A0B1 /* NSRTMTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659192E10A783FF0025A0B1 /* NSRTMTransaction.m */; };
+		265919A710A783FF0025A0B1 /* NSRTMContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659192F10A783FF0025A0B1 /* NSRTMContact.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265919A810A783FF0025A0B1 /* NSRTMContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659193010A783FF0025A0B1 /* NSRTMContact.m */; };
+		265919A910A783FF0025A0B1 /* NSRTMSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659193110A783FF0025A0B1 /* NSRTMSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265919AA10A783FF0025A0B1 /* NSRTMSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659193210A783FF0025A0B1 /* NSRTMSettings.m */; };
+		265919AB10A783FF0025A0B1 /* NSRTMTimezone.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659193310A783FF0025A0B1 /* NSRTMTimezone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265919AC10A783FF0025A0B1 /* NSRTMTimezone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659193410A783FF0025A0B1 /* NSRTMTimezone.m */; };
+		265919AD10A783FF0025A0B1 /* NSRTMDataformat.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659193510A783FF0025A0B1 /* NSRTMDataformat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265919AE10A783FF0025A0B1 /* NSRTMDataformat.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659193610A783FF0025A0B1 /* NSRTMDataformat.m */; };
+		265919AF10A783FF0025A0B1 /* NSRTMTimeformat.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659193710A783FF0025A0B1 /* NSRTMTimeformat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265919B010A783FF0025A0B1 /* NSRTMTimeformat.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659193810A783FF0025A0B1 /* NSRTMTimeformat.m */; };
+		265919B110A783FF0025A0B1 /* NSRTMDefaultlist.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659193910A783FF0025A0B1 /* NSRTMDefaultlist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265919B210A783FF0025A0B1 /* NSRTMDefaultlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659193A10A783FF0025A0B1 /* NSRTMDefaultlist.m */; };
+		265919B310A783FF0025A0B1 /* NSRTMLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659193B10A783FF0025A0B1 /* NSRTMLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265919B410A783FF0025A0B1 /* NSRTMLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659193C10A783FF0025A0B1 /* NSRTMLocation.m */; };
+		265919B510A783FF0025A0B1 /* NSRTMController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659193D10A783FF0025A0B1 /* NSRTMController.h */; settings = {ATTRIBUTES = (); }; };
+		265919B610A783FF0025A0B1 /* NSRTMController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659193E10A783FF0025A0B1 /* NSRTMController.m */; };
+		265919B710A783FF0025A0B1 /* NSRTM.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659193F10A783FF0025A0B1 /* NSRTM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265919B810A783FF0025A0B1 /* NSRTM.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659194010A783FF0025A0B1 /* NSRTM.m */; };
+		265919B910A783FF0025A0B1 /* NSRTMInvoker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659194110A783FF0025A0B1 /* NSRTMInvoker.h */; settings = {ATTRIBUTES = (); }; };
+		265919BA10A783FF0025A0B1 /* NSRTMInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659194210A783FF0025A0B1 /* NSRTMInvoker.m */; };
+		265919BB10A783FF0025A0B1 /* NSRTMParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659194310A783FF0025A0B1 /* NSRTMParam.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265919BC10A783FF0025A0B1 /* NSRTMParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659194410A783FF0025A0B1 /* NSRTMParam.m */; };
+		265919BD10A783FF0025A0B1 /* NSRTMMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659194510A783FF0025A0B1 /* NSRTMMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265919BE10A783FF0025A0B1 /* NSRTMMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659194610A783FF0025A0B1 /* NSRTMMethod.m */; };
+		265919C110A784140025A0B1 /* DebugLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 265919BF10A784130025A0B1 /* DebugLog.h */; settings = {ATTRIBUTES = (); }; };
+		265919C210A784140025A0B1 /* DebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 265919C010A784130025A0B1 /* DebugLog.m */; };
+		265919C410A784260025A0B1 /* RTM2Cocoa_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 265919C310A784260025A0B1 /* RTM2Cocoa_Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
+		265919C710A7843C0025A0B1 /* rtm.xib in Resources */ = {isa = PBXBuildFile; fileRef = 265919C510A7843C0025A0B1 /* rtm.xib */; };
+		265919C810A7843C0025A0B1 /* RTMMapping.xml in Resources */ = {isa = PBXBuildFile; fileRef = 265919C610A7843C0025A0B1 /* RTMMapping.xml */; };
+		2669E80610AB5798002F3DE5 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2669E80510AB5798002F3DE5 /* BWToolkitFramework.framework */; };
+		2669E83D10AB57A3002F3DE5 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2669E80510AB5798002F3DE5 /* BWToolkitFramework.framework */; };
+		2669E9A210AB69F4002F3DE5 /* NSRTMObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2669E99810AB698C002F3DE5 /* NSRTMObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2669E9A310AB69F9002F3DE5 /* NSRTMObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2669E99910AB698C002F3DE5 /* NSRTMObject.m */; };
+		266FB9A010AEEE2300BFCA88 /* NSRTMTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 266FB99E10AEEE2300BFCA88 /* NSRTMTag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266FB9A110AEEE2300BFCA88 /* NSRTMTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 266FB99F10AEEE2300BFCA88 /* NSRTMTag.m */; };
+		2679EF5910B9C46500B52877 /* libssl.0.9.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2679EF5810B9C46500B52877 /* libssl.0.9.7.dylib */; };
+		2679EF5B10B9C46F00B52877 /* libcrypto.0.9.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2679EF5A10B9C46F00B52877 /* libcrypto.0.9.7.dylib */; };
+		268518F010B8915000A23F88 /* NSDate+IsoFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 268518EE10B8915000A23F88 /* NSDate+IsoFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		268518F110B8915000A23F88 /* NSDate+IsoFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 268518EF10B8915000A23F88 /* NSDate+IsoFormat.m */; };
+		2686CFB010B74EB90076B87B /* RTMControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 2686CFAF10B74EB90076B87B /* RTMControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26D87A0610AE9CB7000E51B9 /* NSRTMTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 26D87A0310AE9CB0000E51B9 /* NSRTMTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26D87A0710AE9CBC000E51B9 /* NSRTMTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D87A0410AE9CB0000E51B9 /* NSRTMTask.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		26591C5310A78FFF0025A0B1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2613ED1610BB1A1A00C2C760 /* RTM2Cocoa.framework in CopyFiles */,
+				2669E83D10AB57A3002F3DE5 /* BWToolkitFramework.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* ApiTestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiTestAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* ApiTestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiTestAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* ApiTest_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiTest_Prefix.pch; sourceTree = "<group>"; };
+		2613EB5910BB156800C2C760 /* RTM2Cocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RTM2Cocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2613ED7110BB268C00C2C760 /* NSRTM2Cocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTM2Cocoa.h; sourceTree = "<group>"; };
+		265918C010A783B00025A0B1 /* RTM2Cocoa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RTM2Cocoa-Info.plist"; sourceTree = "<group>"; };
+		265918C810A783FE0025A0B1 /* RTMDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMDelegate.h; sourceTree = "<group>"; };
+		265918C910A783FE0025A0B1 /* NSRTMRecurrence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMRecurrence.h; sourceTree = "<group>"; };
+		265918CA10A783FE0025A0B1 /* NSRTMRecurrence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMRecurrence.m; sourceTree = "<group>"; };
+		265918CB10A783FE0025A0B1 /* NSRTMRecurrenceEvery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMRecurrenceEvery.h; sourceTree = "<group>"; };
+		265918CC10A783FE0025A0B1 /* NSRTMRecurrenceEvery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMRecurrenceEvery.m; sourceTree = "<group>"; };
+		265918CD10A783FE0025A0B1 /* NSRTMRecurrenceAfter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMRecurrenceAfter.h; sourceTree = "<group>"; };
+		265918CE10A783FE0025A0B1 /* NSRTMRecurrenceAfter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMRecurrenceAfter.m; sourceTree = "<group>"; };
+		265918CF10A783FE0025A0B1 /* NSRTMLocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMLocator.h; sourceTree = "<group>"; };
+		265918D010A783FE0025A0B1 /* NSRTMLocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMLocator.m; sourceTree = "<group>"; };
+		265918D210A783FE0025A0B1 /* NSRTMPredicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMPredicate.h; sourceTree = "<group>"; };
+		265918D310A783FE0025A0B1 /* NSRTMPredicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMPredicate.m; sourceTree = "<group>"; };
+		265918D410A783FE0025A0B1 /* NSRTMCriteria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMCriteria.h; sourceTree = "<group>"; };
+		265918D510A783FE0025A0B1 /* NSRTMCriteria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMCriteria.m; sourceTree = "<group>"; };
+		265918D610A783FE0025A0B1 /* NSRTMTimeCriteria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMTimeCriteria.h; sourceTree = "<group>"; };
+		265918D710A783FE0025A0B1 /* NSRTMTimeCriteria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMTimeCriteria.m; sourceTree = "<group>"; };
+		265918D810A783FE0025A0B1 /* NSRTMShareCriteria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMShareCriteria.h; sourceTree = "<group>"; };
+		265918D910A783FE0025A0B1 /* NSRTMShareCriteria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMShareCriteria.m; sourceTree = "<group>"; };
+		265918DA10A783FE0025A0B1 /* NSRTMLocationCriteria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMLocationCriteria.h; sourceTree = "<group>"; };
+		265918DB10A783FE0025A0B1 /* NSRTMLocationCriteria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMLocationCriteria.m; sourceTree = "<group>"; };
+		265918DC10A783FE0025A0B1 /* NSRTMParamsCriteria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMParamsCriteria.h; sourceTree = "<group>"; };
+		265918DD10A783FE0025A0B1 /* NSRTMParamsCriteria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMParamsCriteria.m; sourceTree = "<group>"; };
+		265918DE10A783FE0025A0B1 /* NSRTMTagCriteria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMTagCriteria.h; sourceTree = "<group>"; };
+		265918DF10A783FE0025A0B1 /* NSRTMTagCriteria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMTagCriteria.m; sourceTree = "<group>"; };
+		265918E110A783FE0025A0B1 /* NSRTMResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMResponse.h; sourceTree = "<group>"; };
+		265918E210A783FE0025A0B1 /* NSRTMResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMResponse.m; sourceTree = "<group>"; };
+		265918E410A783FE0025A0B1 /* NSDataMd5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataMd5.h; sourceTree = "<group>"; };
+		265918E510A783FE0025A0B1 /* NSDataMd5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataMd5.m; sourceTree = "<group>"; };
+		265918E610A783FE0025A0B1 /* DigestMd5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DigestMd5.h; sourceTree = "<group>"; };
+		265918E710A783FE0025A0B1 /* DigestMd5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DigestMd5.m; sourceTree = "<group>"; };
+		265918E910A783FE0025A0B1 /* JMRBooleanMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRBooleanMapping.h; sourceTree = "<group>"; };
+		265918EA10A783FE0025A0B1 /* JMRBooleanMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRBooleanMapping.m; sourceTree = "<group>"; };
+		265918EB10A783FE0025A0B1 /* JMRBooleanMappingType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRBooleanMappingType.h; sourceTree = "<group>"; };
+		265918EC10A783FE0025A0B1 /* JMRBooleanMappingType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRBooleanMappingType.m; sourceTree = "<group>"; };
+		265918ED10A783FE0025A0B1 /* JMRConstantMappingType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRConstantMappingType.h; sourceTree = "<group>"; };
+		265918EE10A783FE0025A0B1 /* JMRConstantMappingType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRConstantMappingType.m; sourceTree = "<group>"; };
+		265918EF10A783FE0025A0B1 /* JMRDateMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRDateMapping.h; sourceTree = "<group>"; };
+		265918F010A783FE0025A0B1 /* JMRDateMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRDateMapping.m; sourceTree = "<group>"; };
+		265918F110A783FE0025A0B1 /* JMRDateMappingType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRDateMappingType.h; sourceTree = "<group>"; };
+		265918F210A783FE0025A0B1 /* JMRDateMappingType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRDateMappingType.m; sourceTree = "<group>"; };
+		265918F310A783FE0025A0B1 /* JMRMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRMapping.h; sourceTree = "<group>"; };
+		265918F410A783FE0025A0B1 /* JMRMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRMapping.m; sourceTree = "<group>"; };
+		265918F510A783FE0025A0B1 /* JMRMappingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRMappingFactory.h; sourceTree = "<group>"; };
+		265918F610A783FE0025A0B1 /* JMRMappingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRMappingFactory.m; sourceTree = "<group>"; };
+		265918F710A783FE0025A0B1 /* JMRMappingList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRMappingList.h; sourceTree = "<group>"; };
+		265918F810A783FE0025A0B1 /* JMRMappingList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRMappingList.m; sourceTree = "<group>"; };
+		265918F910A783FE0025A0B1 /* JMRMappingType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRMappingType.h; sourceTree = "<group>"; };
+		265918FA10A783FE0025A0B1 /* JMRMappingType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRMappingType.m; sourceTree = "<group>"; };
+		265918FB10A783FE0025A0B1 /* JMRMarshaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRMarshaller.h; sourceTree = "<group>"; };
+		265918FC10A783FE0025A0B1 /* JMRMarshaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRMarshaller.m; sourceTree = "<group>"; };
+		265918FD10A783FE0025A0B1 /* JMRNumberMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRNumberMapping.h; sourceTree = "<group>"; };
+		265918FE10A783FE0025A0B1 /* JMRNumberMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRNumberMapping.m; sourceTree = "<group>"; };
+		265918FF10A783FE0025A0B1 /* JMRNumberMappingType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRNumberMappingType.h; sourceTree = "<group>"; };
+		2659190010A783FE0025A0B1 /* JMRNumberMappingType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRNumberMappingType.m; sourceTree = "<group>"; };
+		2659190110A783FE0025A0B1 /* JMRObjectMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRObjectMapping.h; sourceTree = "<group>"; };
+		2659190210A783FE0025A0B1 /* JMRObjectMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRObjectMapping.m; sourceTree = "<group>"; };
+		2659190310A783FE0025A0B1 /* JMROutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMROutputStream.h; sourceTree = "<group>"; };
+		2659190410A783FE0025A0B1 /* JMROutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMROutputStream.m; sourceTree = "<group>"; };
+		2659190510A783FE0025A0B1 /* JMRScalarMappingType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRScalarMappingType.h; sourceTree = "<group>"; };
+		2659190610A783FE0025A0B1 /* JMRScalarMappingType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRScalarMappingType.m; sourceTree = "<group>"; };
+		2659190710A783FE0025A0B1 /* JMRStringMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRStringMapping.h; sourceTree = "<group>"; };
+		2659190810A783FE0025A0B1 /* JMRStringMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRStringMapping.m; sourceTree = "<group>"; };
+		2659190910A783FE0025A0B1 /* JMRStringMappingType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRStringMappingType.h; sourceTree = "<group>"; };
+		2659190A10A783FE0025A0B1 /* JMRStringMappingType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRStringMappingType.m; sourceTree = "<group>"; };
+		2659190B10A783FE0025A0B1 /* JMRSwitchMappingType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRSwitchMappingType.h; sourceTree = "<group>"; };
+		2659190C10A783FE0025A0B1 /* JMRSwitchMappingType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRSwitchMappingType.m; sourceTree = "<group>"; };
+		2659190D10A783FE0025A0B1 /* JMRTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRTree.h; sourceTree = "<group>"; };
+		2659190E10A783FE0025A0B1 /* JMRTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRTree.m; sourceTree = "<group>"; };
+		2659190F10A783FE0025A0B1 /* JMRXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRXMLNode.h; sourceTree = "<group>"; };
+		2659191010A783FE0025A0B1 /* JMRXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRXMLNode.m; sourceTree = "<group>"; };
+		2659191110A783FE0025A0B1 /* JMRXMLTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRXMLTree.h; sourceTree = "<group>"; };
+		2659191210A783FE0025A0B1 /* JMRXMLTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRXMLTree.m; sourceTree = "<group>"; };
+		2659191310A783FE0025A0B1 /* XMLKeyValueElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLKeyValueElement.h; sourceTree = "<group>"; };
+		2659191410A783FE0025A0B1 /* XMLKeyValueElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLKeyValueElement.m; sourceTree = "<group>"; };
+		2659191610A783FE0025A0B1 /* NSRTMAuthException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMAuthException.h; sourceTree = "<group>"; };
+		2659191710A783FE0025A0B1 /* NSRTMAuthException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMAuthException.m; sourceTree = "<group>"; };
+		2659191910A783FE0025A0B1 /* NSRTMService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMService.h; sourceTree = "<group>"; };
+		2659191A10A783FE0025A0B1 /* NSRTMService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMService.m; sourceTree = "<group>"; };
+		2659191B10A783FE0025A0B1 /* NSRTMXMLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMXMLProtocol.h; sourceTree = "<group>"; };
+		2659191C10A783FE0025A0B1 /* NSRTMNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMNotification.h; sourceTree = "<group>"; };
+		2659191D10A783FE0025A0B1 /* NSRTMNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMNotification.m; sourceTree = "<group>"; };
+		2659191F10A783FE0025A0B1 /* NSRTMError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMError.h; sourceTree = "<group>"; };
+		2659192010A783FE0025A0B1 /* NSRTMError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMError.m; sourceTree = "<group>"; };
+		2659192110A783FE0025A0B1 /* NSRTMTaskseries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMTaskseries.h; sourceTree = "<group>"; };
+		2659192210A783FE0025A0B1 /* NSRTMTaskseries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMTaskseries.m; sourceTree = "<group>"; };
+		2659192310A783FE0025A0B1 /* NSRTMList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMList.h; sourceTree = "<group>"; };
+		2659192410A783FE0025A0B1 /* NSRTMList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMList.m; sourceTree = "<group>"; };
+		2659192510A783FE0025A0B1 /* NSRTMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMUser.h; sourceTree = "<group>"; };
+		2659192610A783FE0025A0B1 /* NSRTMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMUser.m; sourceTree = "<group>"; };
+		2659192710A783FE0025A0B1 /* NSRTMAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMAuth.h; sourceTree = "<group>"; };
+		2659192810A783FE0025A0B1 /* NSRTMAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMAuth.m; sourceTree = "<group>"; };
+		2659192910A783FE0025A0B1 /* NSRTMNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMNote.h; sourceTree = "<group>"; };
+		2659192A10A783FE0025A0B1 /* NSRTMNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMNote.m; sourceTree = "<group>"; };
+		2659192B10A783FE0025A0B1 /* NSRTMTimeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMTimeline.h; sourceTree = "<group>"; };
+		2659192C10A783FE0025A0B1 /* NSRTMTimeline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMTimeline.m; sourceTree = "<group>"; };
+		2659192D10A783FE0025A0B1 /* NSRTMTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMTransaction.h; sourceTree = "<group>"; };
+		2659192E10A783FF0025A0B1 /* NSRTMTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMTransaction.m; sourceTree = "<group>"; };
+		2659192F10A783FF0025A0B1 /* NSRTMContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMContact.h; sourceTree = "<group>"; };
+		2659193010A783FF0025A0B1 /* NSRTMContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMContact.m; sourceTree = "<group>"; };
+		2659193110A783FF0025A0B1 /* NSRTMSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMSettings.h; sourceTree = "<group>"; };
+		2659193210A783FF0025A0B1 /* NSRTMSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMSettings.m; sourceTree = "<group>"; };
+		2659193310A783FF0025A0B1 /* NSRTMTimezone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMTimezone.h; sourceTree = "<group>"; };
+		2659193410A783FF0025A0B1 /* NSRTMTimezone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMTimezone.m; sourceTree = "<group>"; };
+		2659193510A783FF0025A0B1 /* NSRTMDataformat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMDataformat.h; sourceTree = "<group>"; };
+		2659193610A783FF0025A0B1 /* NSRTMDataformat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMDataformat.m; sourceTree = "<group>"; };
+		2659193710A783FF0025A0B1 /* NSRTMTimeformat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMTimeformat.h; sourceTree = "<group>"; };
+		2659193810A783FF0025A0B1 /* NSRTMTimeformat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMTimeformat.m; sourceTree = "<group>"; };
+		2659193910A783FF0025A0B1 /* NSRTMDefaultlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMDefaultlist.h; sourceTree = "<group>"; };
+		2659193A10A783FF0025A0B1 /* NSRTMDefaultlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMDefaultlist.m; sourceTree = "<group>"; };
+		2659193B10A783FF0025A0B1 /* NSRTMLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMLocation.h; sourceTree = "<group>"; };
+		2659193C10A783FF0025A0B1 /* NSRTMLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMLocation.m; sourceTree = "<group>"; };
+		2659193D10A783FF0025A0B1 /* NSRTMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMController.h; sourceTree = "<group>"; };
+		2659193E10A783FF0025A0B1 /* NSRTMController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMController.m; sourceTree = "<group>"; };
+		2659193F10A783FF0025A0B1 /* NSRTM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTM.h; sourceTree = "<group>"; };
+		2659194010A783FF0025A0B1 /* NSRTM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTM.m; sourceTree = "<group>"; };
+		2659194110A783FF0025A0B1 /* NSRTMInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMInvoker.h; sourceTree = "<group>"; };
+		2659194210A783FF0025A0B1 /* NSRTMInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMInvoker.m; sourceTree = "<group>"; };
+		2659194310A783FF0025A0B1 /* NSRTMParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMParam.h; sourceTree = "<group>"; };
+		2659194410A783FF0025A0B1 /* NSRTMParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMParam.m; sourceTree = "<group>"; };
+		2659194510A783FF0025A0B1 /* NSRTMMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMMethod.h; sourceTree = "<group>"; };
+		2659194610A783FF0025A0B1 /* NSRTMMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMMethod.m; sourceTree = "<group>"; };
+		265919BF10A784130025A0B1 /* DebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLog.h; sourceTree = "<group>"; };
+		265919C010A784130025A0B1 /* DebugLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLog.m; sourceTree = "<group>"; };
+		265919C310A784260025A0B1 /* RTM2Cocoa_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTM2Cocoa_Prefix.pch; sourceTree = "<group>"; };
+		265919C510A7843C0025A0B1 /* rtm.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = rtm.xib; sourceTree = "<group>"; };
+		265919C610A7843C0025A0B1 /* RTMMapping.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RTMMapping.xml; sourceTree = "<group>"; };
+		2669E80510AB5798002F3DE5 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BWToolkitFramework.framework; sourceTree = "<group>"; };
+		2669E99810AB698C002F3DE5 /* NSRTMObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMObject.h; sourceTree = "<group>"; };
+		2669E99910AB698C002F3DE5 /* NSRTMObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMObject.m; sourceTree = "<group>"; };
+		266FB99E10AEEE2300BFCA88 /* NSRTMTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMTag.h; sourceTree = "<group>"; };
+		266FB99F10AEEE2300BFCA88 /* NSRTMTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMTag.m; sourceTree = "<group>"; };
+		2679EF5810B9C46500B52877 /* libssl.0.9.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.0.9.7.dylib; path = /usr/lib/libssl.0.9.7.dylib; sourceTree = "<absolute>"; };
+		2679EF5A10B9C46F00B52877 /* libcrypto.0.9.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.0.9.7.dylib; path = /usr/lib/libcrypto.0.9.7.dylib; sourceTree = "<absolute>"; };
+		268518EE10B8915000A23F88 /* NSDate+IsoFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+IsoFormat.h"; sourceTree = "<group>"; };
+		268518EF10B8915000A23F88 /* NSDate+IsoFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+IsoFormat.m"; sourceTree = "<group>"; };
+		2686CFAF10B74EB90076B87B /* RTMControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMControllerProtocol.h; sourceTree = "<group>"; };
+		26D87A0310AE9CB0000E51B9 /* NSRTMTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRTMTask.h; sourceTree = "<group>"; };
+		26D87A0410AE9CB0000E51B9 /* NSRTMTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRTMTask.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* ApiTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ApiTest-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* ApiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		265918BD10A783B00025A0B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2679EF5910B9C46500B52877 /* libssl.0.9.7.dylib in Frameworks */,
+				2679EF5B10B9C46F00B52877 /* libcrypto.0.9.7.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				2669E80610AB5798002F3DE5 /* BWToolkitFramework.framework in Frameworks */,
+				2613ECCE10BB1A0D00C2C760 /* RTM2Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2685189210B8165800A23F88 /* Recurrence */,
+				2685189110B8162F00A23F88 /* Protocol */,
+				2659191E10A783FE0025A0B1 /* RTMData */,
+				2659191810A783FE0025A0B1 /* Services */,
+				2659191510A783FE0025A0B1 /* Exception */,
+				265918E010A783FE0025A0B1 /* Response */,
+				265918D110A783FE0025A0B1 /* Filter */,
+				2659193D10A783FF0025A0B1 /* NSRTMController.h */,
+				2659193E10A783FF0025A0B1 /* NSRTMController.m */,
+				2659193F10A783FF0025A0B1 /* NSRTM.h */,
+				2613ED7110BB268C00C2C760 /* NSRTM2Cocoa.h */,
+				2659194010A783FF0025A0B1 /* NSRTM.m */,
+				2659194110A783FF0025A0B1 /* NSRTMInvoker.h */,
+				2659194210A783FF0025A0B1 /* NSRTMInvoker.m */,
+				2659194310A783FF0025A0B1 /* NSRTMParam.h */,
+				2659194410A783FF0025A0B1 /* NSRTMParam.m */,
+				2659194510A783FF0025A0B1 /* NSRTMMethod.h */,
+				2659194610A783FF0025A0B1 /* NSRTMMethod.m */,
+				265918CF10A783FE0025A0B1 /* NSRTMLocator.h */,
+				265918D010A783FE0025A0B1 /* NSRTMLocator.m */,
+				268518EE10B8915000A23F88 /* NSDate+IsoFormat.h */,
+				268518EF10B8915000A23F88 /* NSDate+IsoFormat.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2679EF5810B9C46500B52877 /* libssl.0.9.7.dylib */,
+				2679EF5A10B9C46F00B52877 /* libcrypto.0.9.7.dylib */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2613EB5910BB156800C2C760 /* RTM2Cocoa.framework */,
+				2669E80510AB5798002F3DE5 /* BWToolkitFramework.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* ApiTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		265918D110A783FE0025A0B1 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				265918D210A783FE0025A0B1 /* NSRTMPredicate.h */,
+				265918D310A783FE0025A0B1 /* NSRTMPredicate.m */,
+				265918D410A783FE0025A0B1 /* NSRTMCriteria.h */,
+				265918D510A783FE0025A0B1 /* NSRTMCriteria.m */,
+				265918D610A783FE0025A0B1 /* NSRTMTimeCriteria.h */,
+				265918D710A783FE0025A0B1 /* NSRTMTimeCriteria.m */,
+				265918D810A783FE0025A0B1 /* NSRTMShareCriteria.h */,
+				265918D910A783FE0025A0B1 /* NSRTMShareCriteria.m */,
+				265918DA10A783FE0025A0B1 /* NSRTMLocationCriteria.h */,
+				265918DB10A783FE0025A0B1 /* NSRTMLocationCriteria.m */,
+				265918DC10A783FE0025A0B1 /* NSRTMParamsCriteria.h */,
+				265918DD10A783FE0025A0B1 /* NSRTMParamsCriteria.m */,
+				265918DE10A783FE0025A0B1 /* NSRTMTagCriteria.h */,
+				265918DF10A783FE0025A0B1 /* NSRTMTagCriteria.m */,
+			);
+			name = Filter;
+			sourceTree = "<group>";
+		};
+		265918E010A783FE0025A0B1 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				265918E110A783FE0025A0B1 /* NSRTMResponse.h */,
+				265918E210A783FE0025A0B1 /* NSRTMResponse.m */,
+			);
+			name = Response;
+			sourceTree = "<group>";
+		};
+		265918E310A783FE0025A0B1 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				265918E410A783FE0025A0B1 /* NSDataMd5.h */,
+				265918E510A783FE0025A0B1 /* NSDataMd5.m */,
+				265918E610A783FE0025A0B1 /* DigestMd5.h */,
+				265918E710A783FE0025A0B1 /* DigestMd5.m */,
+			);
+			name = Crypto;
+			sourceTree = "<group>";
+		};
+		265918E810A783FE0025A0B1 /* Excelsior */ = {
+			isa = PBXGroup;
+			children = (
+				265918E910A783FE0025A0B1 /* JMRBooleanMapping.h */,
+				265918EA10A783FE0025A0B1 /* JMRBooleanMapping.m */,
+				265918EB10A783FE0025A0B1 /* JMRBooleanMappingType.h */,
+				265918EC10A783FE0025A0B1 /* JMRBooleanMappingType.m */,
+				265918ED10A783FE0025A0B1 /* JMRConstantMappingType.h */,
+				265918EE10A783FE0025A0B1 /* JMRConstantMappingType.m */,
+				265918EF10A783FE0025A0B1 /* JMRDateMapping.h */,
+				265918F010A783FE0025A0B1 /* JMRDateMapping.m */,
+				265918F110A783FE0025A0B1 /* JMRDateMappingType.h */,
+				265918F210A783FE0025A0B1 /* JMRDateMappingType.m */,
+				265918F310A783FE0025A0B1 /* JMRMapping.h */,
+				265918F410A783FE0025A0B1 /* JMRMapping.m */,
+				265918F510A783FE0025A0B1 /* JMRMappingFactory.h */,
+				265918F610A783FE0025A0B1 /* JMRMappingFactory.m */,
+				265918F710A783FE0025A0B1 /* JMRMappingList.h */,
+				265918F810A783FE0025A0B1 /* JMRMappingList.m */,
+				265918F910A783FE0025A0B1 /* JMRMappingType.h */,
+				265918FA10A783FE0025A0B1 /* JMRMappingType.m */,
+				265918FB10A783FE0025A0B1 /* JMRMarshaller.h */,
+				265918FC10A783FE0025A0B1 /* JMRMarshaller.m */,
+				265918FD10A783FE0025A0B1 /* JMRNumberMapping.h */,
+				265918FE10A783FE0025A0B1 /* JMRNumberMapping.m */,
+				265918FF10A783FE0025A0B1 /* JMRNumberMappingType.h */,
+				2659190010A783FE0025A0B1 /* JMRNumberMappingType.m */,
+				2659190110A783FE0025A0B1 /* JMRObjectMapping.h */,
+				2659190210A783FE0025A0B1 /* JMRObjectMapping.m */,
+				2659190310A783FE0025A0B1 /* JMROutputStream.h */,
+				2659190410A783FE0025A0B1 /* JMROutputStream.m */,
+				2659190510A783FE0025A0B1 /* JMRScalarMappingType.h */,
+				2659190610A783FE0025A0B1 /* JMRScalarMappingType.m */,
+				2659190710A783FE0025A0B1 /* JMRStringMapping.h */,
+				2659190810A783FE0025A0B1 /* JMRStringMapping.m */,
+				2659190910A783FE0025A0B1 /* JMRStringMappingType.h */,
+				2659190A10A783FE0025A0B1 /* JMRStringMappingType.m */,
+				2659190B10A783FE0025A0B1 /* JMRSwitchMappingType.h */,
+				2659190C10A783FE0025A0B1 /* JMRSwitchMappingType.m */,
+				2659190D10A783FE0025A0B1 /* JMRTree.h */,
+				2659190E10A783FE0025A0B1 /* JMRTree.m */,
+				2659190F10A783FE0025A0B1 /* JMRXMLNode.h */,
+				2659191010A783FE0025A0B1 /* JMRXMLNode.m */,
+				2659191110A783FE0025A0B1 /* JMRXMLTree.h */,
+				2659191210A783FE0025A0B1 /* JMRXMLTree.m */,
+				2659191310A783FE0025A0B1 /* XMLKeyValueElement.h */,
+				2659191410A783FE0025A0B1 /* XMLKeyValueElement.m */,
+			);
+			name = Excelsior;
+			sourceTree = "<group>";
+		};
+		2659191510A783FE0025A0B1 /* Exception */ = {
+			isa = PBXGroup;
+			children = (
+				2659191610A783FE0025A0B1 /* NSRTMAuthException.h */,
+				2659191710A783FE0025A0B1 /* NSRTMAuthException.m */,
+			);
+			name = Exception;
+			sourceTree = "<group>";
+		};
+		2659191810A783FE0025A0B1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2659191910A783FE0025A0B1 /* NSRTMService.h */,
+				2659191A10A783FE0025A0B1 /* NSRTMService.m */,
+				2659191C10A783FE0025A0B1 /* NSRTMNotification.h */,
+				2659191D10A783FE0025A0B1 /* NSRTMNotification.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		2659191E10A783FE0025A0B1 /* RTMData */ = {
+			isa = PBXGroup;
+			children = (
+				2669E99810AB698C002F3DE5 /* NSRTMObject.h */,
+				2669E99910AB698C002F3DE5 /* NSRTMObject.m */,
+				2659191F10A783FE0025A0B1 /* NSRTMError.h */,
+				2659192010A783FE0025A0B1 /* NSRTMError.m */,
+				2659192110A783FE0025A0B1 /* NSRTMTaskseries.h */,
+				2659192210A783FE0025A0B1 /* NSRTMTaskseries.m */,
+				2659192310A783FE0025A0B1 /* NSRTMList.h */,
+				2659192410A783FE0025A0B1 /* NSRTMList.m */,
+				2659192510A783FE0025A0B1 /* NSRTMUser.h */,
+				2659192610A783FE0025A0B1 /* NSRTMUser.m */,
+				2659192710A783FE0025A0B1 /* NSRTMAuth.h */,
+				2659192810A783FE0025A0B1 /* NSRTMAuth.m */,
+				2659192910A783FE0025A0B1 /* NSRTMNote.h */,
+				2659192A10A783FE0025A0B1 /* NSRTMNote.m */,
+				266FB99E10AEEE2300BFCA88 /* NSRTMTag.h */,
+				266FB99F10AEEE2300BFCA88 /* NSRTMTag.m */,
+				2659192B10A783FE0025A0B1 /* NSRTMTimeline.h */,
+				2659192C10A783FE0025A0B1 /* NSRTMTimeline.m */,
+				2659192D10A783FE0025A0B1 /* NSRTMTransaction.h */,
+				2659192E10A783FF0025A0B1 /* NSRTMTransaction.m */,
+				2659192F10A783FF0025A0B1 /* NSRTMContact.h */,
+				2659193010A783FF0025A0B1 /* NSRTMContact.m */,
+				2659193110A783FF0025A0B1 /* NSRTMSettings.h */,
+				2659193210A783FF0025A0B1 /* NSRTMSettings.m */,
+				2659193310A783FF0025A0B1 /* NSRTMTimezone.h */,
+				2659193410A783FF0025A0B1 /* NSRTMTimezone.m */,
+				2659193510A783FF0025A0B1 /* NSRTMDataformat.h */,
+				2659193610A783FF0025A0B1 /* NSRTMDataformat.m */,
+				2659193710A783FF0025A0B1 /* NSRTMTimeformat.h */,
+				2659193810A783FF0025A0B1 /* NSRTMTimeformat.m */,
+				2659193910A783FF0025A0B1 /* NSRTMDefaultlist.h */,
+				2659193A10A783FF0025A0B1 /* NSRTMDefaultlist.m */,
+				2659193B10A783FF0025A0B1 /* NSRTMLocation.h */,
+				2659193C10A783FF0025A0B1 /* NSRTMLocation.m */,
+				26D87A0310AE9CB0000E51B9 /* NSRTMTask.h */,
+				26D87A0410AE9CB0000E51B9 /* NSRTMTask.m */,
+			);
+			name = RTMData;
+			sourceTree = "<group>";
+		};
+		2685189110B8162F00A23F88 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				265918C810A783FE0025A0B1 /* RTMDelegate.h */,
+				2686CFAF10B74EB90076B87B /* RTMControllerProtocol.h */,
+				2659191B10A783FE0025A0B1 /* NSRTMXMLProtocol.h */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		2685189210B8165800A23F88 /* Recurrence */ = {
+			isa = PBXGroup;
+			children = (
+				265918C910A783FE0025A0B1 /* NSRTMRecurrence.h */,
+				265918CA10A783FE0025A0B1 /* NSRTMRecurrence.m */,
+				265918CB10A783FE0025A0B1 /* NSRTMRecurrenceEvery.h */,
+				265918CC10A783FE0025A0B1 /* NSRTMRecurrenceEvery.m */,
+				265918CD10A783FE0025A0B1 /* NSRTMRecurrenceAfter.h */,
+				265918CE10A783FE0025A0B1 /* NSRTMRecurrenceAfter.m */,
+			);
+			name = Recurrence;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ApiTest */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = ApiTest;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				265918E810A783FE0025A0B1 /* Excelsior */,
+				265918E310A783FE0025A0B1 /* Crypto */,
+				265919BF10A784130025A0B1 /* DebugLog.h */,
+				265919C010A784130025A0B1 /* DebugLog.m */,
+				256AC3D80F4B6AC300CF3369 /* ApiTestAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* ApiTestAppDelegate.m */,
+				265919C310A784260025A0B1 /* RTM2Cocoa_Prefix.pch */,
+				256AC3F00F4B6AF500CF3369 /* ApiTest_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				265919C510A7843C0025A0B1 /* rtm.xib */,
+				265919C610A7843C0025A0B1 /* RTMMapping.xml */,
+				8D1107310486CEB800E47090 /* ApiTest-Info.plist */,
+				265918C010A783B00025A0B1 /* RTM2Cocoa-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		265918BA10A783B00025A0B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2659194710A783FF0025A0B1 /* RTMDelegate.h in Headers */,
+				2659194810A783FF0025A0B1 /* NSRTMRecurrence.h in Headers */,
+				2659194A10A783FF0025A0B1 /* NSRTMRecurrenceEvery.h in Headers */,
+				2659194C10A783FF0025A0B1 /* NSRTMRecurrenceAfter.h in Headers */,
+				2659194E10A783FF0025A0B1 /* NSRTMLocator.h in Headers */,
+				2659195010A783FF0025A0B1 /* NSRTMPredicate.h in Headers */,
+				2659195210A783FF0025A0B1 /* NSRTMCriteria.h in Headers */,
+				2659195410A783FF0025A0B1 /* NSRTMTimeCriteria.h in Headers */,
+				2659195610A783FF0025A0B1 /* NSRTMShareCriteria.h in Headers */,
+				2659195810A783FF0025A0B1 /* NSRTMLocationCriteria.h in Headers */,
+				2659195A10A783FF0025A0B1 /* NSRTMParamsCriteria.h in Headers */,
+				2659195C10A783FF0025A0B1 /* NSRTMTagCriteria.h in Headers */,
+				2659195E10A783FF0025A0B1 /* NSRTMResponse.h in Headers */,
+				2659196010A783FF0025A0B1 /* NSDataMd5.h in Headers */,
+				2659196210A783FF0025A0B1 /* DigestMd5.h in Headers */,
+				2659196410A783FF0025A0B1 /* JMRBooleanMapping.h in Headers */,
+				2659196610A783FF0025A0B1 /* JMRBooleanMappingType.h in Headers */,
+				2659196810A783FF0025A0B1 /* JMRConstantMappingType.h in Headers */,
+				2659196A10A783FF0025A0B1 /* JMRDateMapping.h in Headers */,
+				2659196C10A783FF0025A0B1 /* JMRDateMappingType.h in Headers */,
+				2659196E10A783FF0025A0B1 /* JMRMapping.h in Headers */,
+				2659197010A783FF0025A0B1 /* JMRMappingFactory.h in Headers */,
+				2659197210A783FF0025A0B1 /* JMRMappingList.h in Headers */,
+				2659197410A783FF0025A0B1 /* JMRMappingType.h in Headers */,
+				2659197610A783FF0025A0B1 /* JMRMarshaller.h in Headers */,
+				2659197810A783FF0025A0B1 /* JMRNumberMapping.h in Headers */,
+				2659197A10A783FF0025A0B1 /* JMRNumberMappingType.h in Headers */,
+				2659197C10A783FF0025A0B1 /* JMRObjectMapping.h in Headers */,
+				2659197E10A783FF0025A0B1 /* JMROutputStream.h in Headers */,
+				2659198010A783FF0025A0B1 /* JMRScalarMappingType.h in Headers */,
+				2659198210A783FF0025A0B1 /* JMRStringMapping.h in Headers */,
+				2659198410A783FF0025A0B1 /* JMRStringMappingType.h in Headers */,
+				2659198610A783FF0025A0B1 /* JMRSwitchMappingType.h in Headers */,
+				2659198810A783FF0025A0B1 /* JMRTree.h in Headers */,
+				2659198A10A783FF0025A0B1 /* JMRXMLNode.h in Headers */,
+				2659198C10A783FF0025A0B1 /* JMRXMLTree.h in Headers */,
+				2659198E10A783FF0025A0B1 /* XMLKeyValueElement.h in Headers */,
+				2659199010A783FF0025A0B1 /* NSRTMAuthException.h in Headers */,
+				2659199210A783FF0025A0B1 /* NSRTMService.h in Headers */,
+				2659199410A783FF0025A0B1 /* NSRTMXMLProtocol.h in Headers */,
+				2659199510A783FF0025A0B1 /* NSRTMNotification.h in Headers */,
+				2659199710A783FF0025A0B1 /* NSRTMError.h in Headers */,
+				2659199910A783FF0025A0B1 /* NSRTMTaskseries.h in Headers */,
+				2659199B10A783FF0025A0B1 /* NSRTMList.h in Headers */,
+				2659199D10A783FF0025A0B1 /* NSRTMUser.h in Headers */,
+				2659199F10A783FF0025A0B1 /* NSRTMAuth.h in Headers */,
+				265919A110A783FF0025A0B1 /* NSRTMNote.h in Headers */,
+				265919A310A783FF0025A0B1 /* NSRTMTimeline.h in Headers */,
+				265919A510A783FF0025A0B1 /* NSRTMTransaction.h in Headers */,
+				265919A710A783FF0025A0B1 /* NSRTMContact.h in Headers */,
+				265919A910A783FF0025A0B1 /* NSRTMSettings.h in Headers */,
+				265919AB10A783FF0025A0B1 /* NSRTMTimezone.h in Headers */,
+				265919AD10A783FF0025A0B1 /* NSRTMDataformat.h in Headers */,
+				265919AF10A783FF0025A0B1 /* NSRTMTimeformat.h in Headers */,
+				265919B110A783FF0025A0B1 /* NSRTMDefaultlist.h in Headers */,
+				265919B310A783FF0025A0B1 /* NSRTMLocation.h in Headers */,
+				265919B510A783FF0025A0B1 /* NSRTMController.h in Headers */,
+				265919B710A783FF0025A0B1 /* NSRTM.h in Headers */,
+				265919B910A783FF0025A0B1 /* NSRTMInvoker.h in Headers */,
+				265919BB10A783FF0025A0B1 /* NSRTMParam.h in Headers */,
+				265919BD10A783FF0025A0B1 /* NSRTMMethod.h in Headers */,
+				265919C110A784140025A0B1 /* DebugLog.h in Headers */,
+				265919C410A784260025A0B1 /* RTM2Cocoa_Prefix.pch in Headers */,
+				2669E9A210AB69F4002F3DE5 /* NSRTMObject.h in Headers */,
+				26D87A0610AE9CB7000E51B9 /* NSRTMTask.h in Headers */,
+				266FB9A010AEEE2300BFCA88 /* NSRTMTag.h in Headers */,
+				2686CFB010B74EB90076B87B /* RTMControllerProtocol.h in Headers */,
+				268518F010B8915000A23F88 /* NSDate+IsoFormat.h in Headers */,
+				2613ED7B10BB274B00C2C760 /* NSRTM2Cocoa.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		265918BE10A783B00025A0B1 /* RTM2Cocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265918C410A783B00025A0B1 /* Build configuration list for PBXNativeTarget "RTM2Cocoa" */;
+			buildPhases = (
+				265918BA10A783B00025A0B1 /* Headers */,
+				265918BB10A783B00025A0B1 /* Resources */,
+				265918BC10A783B00025A0B1 /* Sources */,
+				265918BD10A783B00025A0B1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTM2Cocoa;
+			productName = RTM2Cocoa;
+			productReference = 2613EB5910BB156800C2C760 /* RTM2Cocoa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D1107260486CEB800E47090 /* ApiTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ApiTest" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				26591C5310A78FFF0025A0B1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApiTest;
+			productInstallPath = "$(HOME)/Applications";
+			productName = ApiTest;
+			productReference = 8D1107320486CEB800E47090 /* ApiTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = ShuffleCodeBox;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ApiTest" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ApiTest */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* ApiTest */,
+				265918BE10A783B00025A0B1 /* RTM2Cocoa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		265918BB10A783B00025A0B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265919C710A7843C0025A0B1 /* rtm.xib in Resources */,
+				265919C810A7843C0025A0B1 /* RTMMapping.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		265918BC10A783B00025A0B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2659194910A783FF0025A0B1 /* NSRTMRecurrence.m in Sources */,
+				2659194B10A783FF0025A0B1 /* NSRTMRecurrenceEvery.m in Sources */,
+				2659194D10A783FF0025A0B1 /* NSRTMRecurrenceAfter.m in Sources */,
+				2659194F10A783FF0025A0B1 /* NSRTMLocator.m in Sources */,
+				2659195110A783FF0025A0B1 /* NSRTMPredicate.m in Sources */,
+				2659195310A783FF0025A0B1 /* NSRTMCriteria.m in Sources */,
+				2659195510A783FF0025A0B1 /* NSRTMTimeCriteria.m in Sources */,
+				2659195710A783FF0025A0B1 /* NSRTMShareCriteria.m in Sources */,
+				2659195910A783FF0025A0B1 /* NSRTMLocationCriteria.m in Sources */,
+				2659195B10A783FF0025A0B1 /* NSRTMParamsCriteria.m in Sources */,
+				2659195D10A783FF0025A0B1 /* NSRTMTagCriteria.m in Sources */,
+				2659195F10A783FF0025A0B1 /* NSRTMResponse.m in Sources */,
+				2659196110A783FF0025A0B1 /* NSDataMd5.m in Sources */,
+				2659196310A783FF0025A0B1 /* DigestMd5.m in Sources */,
+				2659196510A783FF0025A0B1 /* JMRBooleanMapping.m in Sources */,
+				2659196710A783FF0025A0B1 /* JMRBooleanMappingType.m in Sources */,
+				2659196910A783FF0025A0B1 /* JMRConstantMappingType.m in Sources */,
+				2659196B10A783FF0025A0B1 /* JMRDateMapping.m in Sources */,
+				2659196D10A783FF0025A0B1 /* JMRDateMappingType.m in Sources */,
+				2659196F10A783FF0025A0B1 /* JMRMapping.m in Sources */,
+				2659197110A783FF0025A0B1 /* JMRMappingFactory.m in Sources */,
+				2659197310A783FF0025A0B1 /* JMRMappingList.m in Sources */,
+				2659197510A783FF0025A0B1 /* JMRMappingType.m in Sources */,
+				2659197710A783FF0025A0B1 /* JMRMarshaller.m in Sources */,
+				2659197910A783FF0025A0B1 /* JMRNumberMapping.m in Sources */,
+				2659197B10A783FF0025A0B1 /* JMRNumberMappingType.m in Sources */,
+				2659197D10A783FF0025A0B1 /* JMRObjectMapping.m in Sources */,
+				2659197F10A783FF0025A0B1 /* JMROutputStream.m in Sources */,
+				2659198110A783FF0025A0B1 /* JMRScalarMappingType.m in Sources */,
+				2659198310A783FF0025A0B1 /* JMRStringMapping.m in Sources */,
+				2659198510A783FF0025A0B1 /* JMRStringMappingType.m in Sources */,
+				2659198710A783FF0025A0B1 /* JMRSwitchMappingType.m in Sources */,
+				2659198910A783FF0025A0B1 /* JMRTree.m in Sources */,
+				2659198B10A783FF0025A0B1 /* JMRXMLNode.m in Sources */,
+				2659198D10A783FF0025A0B1 /* JMRXMLTree.m in Sources */,
+				2659198F10A783FF0025A0B1 /* XMLKeyValueElement.m in Sources */,
+				2659199110A783FF0025A0B1 /* NSRTMAuthException.m in Sources */,
+				2659199310A783FF0025A0B1 /* NSRTMService.m in Sources */,
+				2659199610A783FF0025A0B1 /* NSRTMNotification.m in Sources */,
+				2659199810A783FF0025A0B1 /* NSRTMError.m in Sources */,
+				2659199A10A783FF0025A0B1 /* NSRTMTaskseries.m in Sources */,
+				2659199C10A783FF0025A0B1 /* NSRTMList.m in Sources */,
+				2659199E10A783FF0025A0B1 /* NSRTMUser.m in Sources */,
+				265919A010A783FF0025A0B1 /* NSRTMAuth.m in Sources */,
+				265919A210A783FF0025A0B1 /* NSRTMNote.m in Sources */,
+				265919A410A783FF0025A0B1 /* NSRTMTimeline.m in Sources */,
+				265919A610A783FF0025A0B1 /* NSRTMTransaction.m in Sources */,
+				265919A810A783FF0025A0B1 /* NSRTMContact.m in Sources */,
+				265919AA10A783FF0025A0B1 /* NSRTMSettings.m in Sources */,
+				265919AC10A783FF0025A0B1 /* NSRTMTimezone.m in Sources */,
+				265919AE10A783FF0025A0B1 /* NSRTMDataformat.m in Sources */,
+				265919B010A783FF0025A0B1 /* NSRTMTimeformat.m in Sources */,
+				265919B210A783FF0025A0B1 /* NSRTMDefaultlist.m in Sources */,
+				265919B410A783FF0025A0B1 /* NSRTMLocation.m in Sources */,
+				265919B610A783FF0025A0B1 /* NSRTMController.m in Sources */,
+				265919B810A783FF0025A0B1 /* NSRTM.m in Sources */,
+				265919BA10A783FF0025A0B1 /* NSRTMInvoker.m in Sources */,
+				265919BC10A783FF0025A0B1 /* NSRTMParam.m in Sources */,
+				265919BE10A783FF0025A0B1 /* NSRTMMethod.m in Sources */,
+				265919C210A784140025A0B1 /* DebugLog.m in Sources */,
+				2669E9A310AB69F9002F3DE5 /* NSRTMObject.m in Sources */,
+				26D87A0710AE9CBC000E51B9 /* NSRTMTask.m in Sources */,
+				266FB9A110AEEE2300BFCA88 /* NSRTMTag.m in Sources */,
+				268518F110B8915000A23F88 /* NSDate+IsoFormat.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* ApiTestAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		265918C210A783B00025A0B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/build/Release\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "RTM2Cocoa-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_CFLAGS = "-DDEBUG";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = RTM2Cocoa;
+			};
+			name = Debug;
+		};
+		265918C310A783B00025A0B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DEBUGGING_SYMBOLS = default;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_FAST_OBJC_DISPATCH = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "RTM2Cocoa-Info.plist";
+				INSTALL_PATH = "@loader_path/../Frameworks";
+				LD_DYLIB_INSTALL_NAME = "@loader_path/../Frameworks/RTM2Cocoa.framework/Versions/A/RTM2Cocoa";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRIVATE_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/PrivateHeaders";
+				PRODUCT_NAME = RTM2Cocoa;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
+				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = all;
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/build/Debug\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/build/Release\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ApiTest_Prefix.pch;
+				INFOPLIST_FILE = "ApiTest-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ApiTest;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/build/Release\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ApiTest_Prefix.pch;
+				INFOPLIST_FILE = "ApiTest-Info.plist";
+				PRODUCT_NAME = ApiTest;
+				VALID_ARCHS = "x86_64 i386";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH_ACTUAL)";
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		265918C410A783B00025A0B1 /* Build configuration list for PBXNativeTarget "RTM2Cocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265918C210A783B00025A0B1 /* Debug */,
+				265918C310A783B00025A0B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ApiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ApiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
